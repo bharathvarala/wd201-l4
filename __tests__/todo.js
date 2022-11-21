@@ -11,7 +11,6 @@ const prev_day = new Date(
 const next_day = new Date(
   new Date().setDate(new Date().getDate() + 1)
 ).toLocaleDateString("en-CA");
-a = 10;
 const { all, add, markAsComplete, overdue, dueToday, dueLater } = todoList();
 
 describe("Todolist Test Suite", () => {
